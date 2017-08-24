@@ -1,0 +1,8 @@
+{
+    "TEMPERATURE":                      "Temperature",
+    "LUMINANCE":                        "Luminosité",
+    "DOOR_STATUS":                      "Etat de la porte",
+    "OPENED":                           "Ouverte",
+    "CLOSED":                           "Fermée",
+    "UNDEFINED":                        "Indéfini"
+}

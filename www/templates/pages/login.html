@@ -1,0 +1,20 @@
+<!--Smartphone display -->
+<div ng-if="mobileDisplay" class="login-mobile-display visible-xs-block">
+    <div data-eve-panel class="login-panel">
+        <div class="login-logo"></div>
+        <div data-login-form ></div>
+    </div>   
+</div>
+
+<!--Tablet/screen display -->
+<div ng-if="tabletDisplay || desktopDisplay" class="container hidden-xs">
+    <div class="row row-content login-row">
+        <div class="col-sm-4 col-sm-offset-4">
+            <div data-eve-panel class="login-panel">
+                <div class="login-logo"></div>
+                <div data-login-form ></div> 
+            </div>
+        </div>
+    </div>
+</div>
+

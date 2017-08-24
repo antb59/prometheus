@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.h4.eve" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>EVE</name>
+	<description>
+		EVE Mobile application.
+	</description>
+	<author email="" href="">
+		Antoine
+	</author>
+    <content src="index.html" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <access origin="*" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="Orientation" value="default" />
+    <preference name="android-windowSoftInputMode" value="adjustPan" />
+
+	<!-- Don't store local date in an iCloud backup. Turn this to "cloud" to enable storage 
+		 to be sent to iCloud. Note: enabling this could result in Apple rejecting your app.
+	-->
+	<preference name="BackupWebStorage" value="none" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="5000" />
+    <preference name="LogLevel" value="DEBUG"/>
+
+    <icon src="icon.png"/>
+
+	<feature name="StatusBar">
+		<param name="ios-package" value="CDVStatusBar" onload="true" />
+	</feature>
+</widget>
