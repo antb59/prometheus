@@ -21,7 +21,7 @@
     "angular-bootstrap": "*",
     "font-awesome": "*",
     "angular-media-queries": "*",
-    "angular-nvd3": "^1.0.9"
+    "angular-nvd3": "*"
   },
   "ignore": [
     "**/.*",
