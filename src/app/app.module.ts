@@ -6,15 +6,19 @@ import { AppComponent } from './app.component';
 import { HttpModule } from '@angular/http';
 import { DataService } from './data.service';
 
+//import the ng2-file-upload directive so we can add it to our declarations.
+import { FileSelectDirective } from 'ng2-file-upload';
+
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    HttpModule
-  ],
-  providers: [DataService],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        FileSelectDirective
+    ],
+    imports: [
+        BrowserModule,
+        HttpModule
+    ],
+    providers: [DataService],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }
